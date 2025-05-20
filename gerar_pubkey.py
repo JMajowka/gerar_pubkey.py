@@ -24,4 +24,4 @@ def main(): # ← Linha 5 (aqui começa o erro)
             sys.exit(1)
 
 if __name__ == "__main__":
-main() # ← Chamada da função (sem indentação aqui)
+main("gerar_pubkey.py") # ← Chamada da função (sem indentação aqui)
